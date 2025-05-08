@@ -42,7 +42,7 @@ while True:
         print(f"Punteggio finale: {punteggio}")
         break
     
-    parole = x.lower().split()
+    parole = x.split()
 
     for parola in parole:
         if parola in parole_sospette:
